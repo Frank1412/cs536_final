@@ -15,14 +15,14 @@
 
 ## model2
 
-* demo.py: connect id--recipeId--image_path which is a sample, save as a dict
+* model2/demo.py: connect id--recipeId--image_path which is a sample, save as a dict
 
-* image_attn.py:  model2's training file, save model
+* model2/image_attn.py:  model2's training file, save model
 
-* evaluate.py: evaluate model2 by medR and Recall@K,  K=1,5,10
+* model2/evaluate.py: evaluate model2 by medR and Recall@K,  K=1,5,10
 
-* text_process.py: extract fine-grained text features(title, ingredients, instructions)
+* model2/text_process.py: extract fine-grained text features(title, ingredients, instructions)
 
-* text_total_emb.py: extract image and recipe ground truth embedding
+* model2/text_total_emb.py: extract image and recipe ground truth embedding
 
-* triplet.py: training model with triplet loss
+* model2/triplet.py: training model with triplet loss
