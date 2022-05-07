@@ -4,7 +4,7 @@
 # Description:
 
 
-## model1:
+## model1
 
 * model1/vit_model.py: extract image feature by ViT, save as a dict pickle file
 
